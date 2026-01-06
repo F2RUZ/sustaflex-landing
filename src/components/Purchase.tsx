@@ -85,7 +85,7 @@ export default function Purchase() {
   ];
 
   return (
-    <section className="relative w-full py-24 bg-gradient-to-b from-white via-[#F8F9FA] to-[#E9ECEF] overflow-hidden">
+    <section className="relative w-full py-2 bg-gradient-to-b from-white via-[#F8F9FA] to-[#E9ECEF] overflow-hidden">
       <div className="max-w-[1100px] mx-auto px-4 relative z-10">
         {/* TEPA QISMDAGI 3 TA KARTA */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">

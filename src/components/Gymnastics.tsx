@@ -24,7 +24,7 @@ export default function Gymnastics() {
   ];
 
   return (
-    <section id="gym" className="w-full py-20 bg-gray-50/50">
+    <section id="gym" className="w-full py-5 bg-gray-50/50">
       <div className="max-w-[1100px] mx-auto px-4">
         {/* SARLAVHA */}
         <div className="mb-12">

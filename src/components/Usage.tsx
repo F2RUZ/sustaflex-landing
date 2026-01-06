@@ -44,7 +44,7 @@ export default function Usage() {
   ];
 
   return (
-    <section id="usage" className="w-full py-20 bg-white overflow-hidden">
+    <section id="usage" className="w-full py-10 bg-white overflow-hidden">
       <div className="max-w-[1100px] mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
         {/* CHAP TOMON: MATNLAR */}
         <div className="w-full md:w-1/2 space-y-8">

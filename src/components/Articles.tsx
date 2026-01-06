@@ -32,7 +32,7 @@ export default function Articles() {
   ];
 
   return (
-    <section id="articles" className="w-full py-24 bg-[#F9F9F9]">
+    <section id="articles" className="w-full py-4 bg-[#F9F9F9]">
       <div className="max-w-[1100px] mx-auto px-4">
         {/* SARLAVHA */}
         <div className="mb-16 text-center md:text-left">

@@ -24,7 +24,7 @@ export default function Composition() {
   ];
 
   return (
-    <section className="w-full py-16 bg-gray-50/50 overflow-hidden">
+    <section className="w-full py-1 bg-gray-50/50 overflow-hidden">
       <div className="max-w-[1100px] mx-auto px-4">
         {/* Sarlavha */}
         <div className="text-center mb-16">

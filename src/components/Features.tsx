@@ -25,7 +25,7 @@ export default function Features() {
             <div
               key={idx}
               className={`
-                relative flex-1 flex items-center gap-4 px-8 py-10 md:py-14
+                relative flex-1 flex items-center gap-4 px-8 py-4 md:py-5
                 transition-all duration-300 hover:bg-red-50/30 cursor-default
                 ${
                   idx !== features.length - 1
@@ -41,7 +41,7 @@ export default function Features() {
 
               {/* Matn (Qora rangga o'tkazildi, rasmga mos) */}
               <div className="relative">
-                <p className="text-[#1A1A1A] font-black text-[13px] md:text-[15px] leading-tight tracking-tight uppercase">
+                <p className="text-[#1A1A1A] font-black text-[11px] md:text-[11px] leading-tight tracking-tight uppercase">
                   {item.text}
               
                 </p>
