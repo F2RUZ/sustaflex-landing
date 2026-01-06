@@ -4,15 +4,12 @@ export default function Features() {
   const features = [
     {
       text: "BO'G'IMLARDA QULAYLIK HISSINI SAQLASHGA YORDAM BERADI",
-   
     },
     {
       text: "BO'G'IMLARNING HARAKATCHANLIGINI SAQLASHGA YORDAM BERADI",
-  
     },
     {
       text: "HAR BIR PAKET UCHUN QULAY NARX",
-   
     },
   ];
 
@@ -46,9 +43,7 @@ export default function Features() {
               <div className="relative">
                 <p className="text-[#1A1A1A] font-black text-[13px] md:text-[15px] leading-tight tracking-tight uppercase">
                   {item.text}
-                  <sup className="text-red-600 text-[9px] ml-1 opacity-100 font-bold">
-                    {item.index}
-                  </sup>
+              
                 </p>
               </div>
             </div>
