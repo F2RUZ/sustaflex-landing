@@ -6,7 +6,6 @@ export default function Purchase() {
     {
       title: "KOMPLEKS HARAKAT",
       desc: "Glyukozamin sulfat va xondroitin sulfat optimal dozalarda bo'g'imlar va umurtqa pog'onasining tog'ay to'qimasini qo'llab-quvvatlash va himoya qilishga yordam beradi",
-      index: "2",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -29,8 +28,7 @@ export default function Purchase() {
     },
     {
       title: "OSON HAZM BO'LADIGAN TARKIB",
-      desc: "Sulfat shaklidagi glyukozamin organizm tomonidan glyukozamin gidroxloridga qaraganda yaxshiroq so'riladi.",
-      index: "1-3",
+      desc: "Sulfat shaklidagi glyukozamin organizm tomonidan glyukozamin gidroxloridga qaraganda yaxxorq so'riladi.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -63,7 +61,6 @@ export default function Purchase() {
     {
       title: "TABIIY FORMULA",
       desc: "Xaftaga to'qimasining tabiiy komponentlarini o'z ichiga oladi",
-      index: "3, 8",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -109,7 +106,6 @@ export default function Purchase() {
               </h3>
               <p className="text-[#1A1A1A]/60 text-[13px] leading-relaxed font-bold">
                 {card.desc}
-                <sup className="ml-1 text-red-600 font-black">{card.index}</sup>
               </p>
             </motion.div>
           ))}
@@ -131,7 +127,7 @@ export default function Purchase() {
           </p>
         </motion.div>
 
-        {/* O'YNAB TURUVCHI TABLETKALAR (Floating Animation) */}
+        {/* O'YNAB TURUVCHI TABLETKALAR */}
         <div className="relative h-24 flex justify-center items-center gap-12">
           {[
             {
@@ -171,7 +167,6 @@ export default function Purchase() {
         </div>
       </div>
 
-      {/* FONDA NOZIK DEKORATSIYA */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-20">
         <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-white rounded-full blur-[120px]" />
         <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-gray-200 rounded-full blur-[120px]" />
